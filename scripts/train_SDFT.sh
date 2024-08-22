@@ -1,0 +1,1 @@
+accelerate launch --config_file scripts/accelerate.yaml train_SDFT.py
