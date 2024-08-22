@@ -81,7 +81,6 @@ jupyter_core==5.3.2
 jupyterlab-widgets==3.0.9
 kiwisolver==1.4.5
 kornia==0.7.0
-latent-diffusion @ file:///data/pug/RGBD-Diffusion/third_party/latent-diffusion
 lazy_loader==0.3
 lightning-utilities==0.9.0
 lit==17.0.2
@@ -105,7 +104,6 @@ nest-asyncio==1.5.8
 networkx==3.1
 ninja==1.11.1
 numpy==1.24.4
-nvdiffrast @ file:///data/pug/RGBD-Diffusion/third_party/nvdiffrast
 nvidia-cublas-cu11==11.10.3.66
 nvidia-cublas-cu12==12.1.3.1
 nvidia-cuda-cupti-cu11==11.7.101
@@ -172,14 +170,9 @@ pytest==7.4.3
 python-dateutil==2.8.2
 python-multipart==0.0.6
 pytorch-lightning==1.9.0
-# Editable install with no version control (pytorch-ssim==0.1)
--e /home/pug/.conda/envs/perf/lib/python3.8/site-packages
-# Editable install with no version control (pytorch3d==0.7.4)
--e /data/pug/pytorch3d-main
 pytz==2023.3.post1
 PyWavelets==1.4.1
 PyYAML==6.0.1
-recon @ file:///data/pug/RGBD-Diffusion/third_party/recon
 referencing==0.30.2
 regex==2023.10.3
 requests==2.32.3
